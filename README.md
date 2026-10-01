@@ -1,6 +1,6 @@
 # Stock Predictions ML
 
-An LSTM-based model that predicts the next day's closing stock price from the previous 29 days of closing prices.
+An LSTM-based (Long Short-Term Memory) model that predicts the next day's closing stock price from the previous 29 days of closing prices.
 
 ## How it works
 
