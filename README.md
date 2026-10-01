@@ -2,6 +2,9 @@
 
 An LSTM-based (Long Short-Term Memory) model that predicts the next day's closing stock price from the previous 29 days of closing prices.
 
+## Disclaimer: 
+This project is for educational purposes only and does not constitute financial advice. Stock price predictions are inherently uncertain, and this model has known limitations (see Known limitations). Do not use this tool as the sole basis for investment decisions.
+
 ## How it works
 
 The notebook ([Main.ipynb](Main.ipynb)) follows this pipeline:
