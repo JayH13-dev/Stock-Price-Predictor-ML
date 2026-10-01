@@ -25,13 +25,7 @@ Then open [Main.ipynb](Main.ipynb) in Jupyter and run the cells top to bottom. C
 
 ## Results
 
-<!-- Fill in after running the notebook, e.g.:
-- Ticker: AAPL
-- Train RMSE: ...
-- Test RMSE: ...
--->
-
-The model is a reasonable predictor of short-term price movement, with the predicted curve generally tracking the actual price. However, it tends to lag — effectively anchoring each prediction on the current day's price rather than genuinely forecasting the next move. This becomes especially visible during periods of sharp price change, where prediction error spikes above the RMSE threshold.
+The model is a reasonable predictor of short-term price movement, with the predicted curve generally tracking the actual price. However, it tends to lag, effectively anchoring each prediction on the current day's price rather than genuinely forecasting the next move. This becomes especially visible during periods of sharp price change, where prediction error spikes above the RMSE threshold.
 
 ## Known limitations
 
